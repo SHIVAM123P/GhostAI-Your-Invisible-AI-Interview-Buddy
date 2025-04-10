@@ -1,4 +1,3 @@
-
 export const Gemini = async (prompt: string) => {
   // try {
   //   const model = genAI.getGenerativeModel({model: 'gemini-pro'});

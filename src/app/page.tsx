@@ -1,11 +1,10 @@
-
 'use client';
 
 import {useState, useEffect, useRef} from 'react';
 import {Modal} from '@/components/Modal';
 
 export default function Home() {
-  const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(true);
 
   useEffect(() => {
     const handleKeyDown = (event: KeyboardEvent) => {
@@ -27,4 +26,3 @@ export default function Home() {
     </main>
   );
 }
-
